@@ -10,7 +10,7 @@ class LandingPage extends Component {
       <Cell col={12}>
       <img
       className="avatar-img"
-      src="https://i.imgur.com/GSHHo9o.jpg"
+      src="https://i.imgur.com/jSu8Bh2.png"
       alt="headshot"
       />
       </Cell>
