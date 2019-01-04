@@ -19,6 +19,24 @@ class LandingPage extends Component {
       <hr/>
 
       <p>HTML/CSS | Ruby | Ruby on Rails | Javascript | React</p>
+
+      <div className="social-links">
+      {/* Linkedin*/}
+      <a href="https://www.linkedin.com/in/elaineparieanderson/" rel="nooperner noreferrer" target="_blank">
+        <i className="fa fa-linkedin-square" aria-hidden="true" />
+      </a>
+
+      {/* Github*/}
+      <a href="https://github.com/elaineparie" rel="nooperner noreferrer" target="_blank">
+        <i className="fa fa-github-square" aria-hidden="true" />
+      </a>
+
+      {/* Youtube*/}
+      <a href="https://www.youtube.com/channel/UCEbkzKCE6WA9zGTFiMaDXBg?view_as=subscriber" rel="nooperner noreferrer" target="_blank">
+        <i className="fa fa-youtube-square" aria-hidden="true" />
+      </a>
+      </div>
+
       </div>
       </Cell>
       </Grid>
