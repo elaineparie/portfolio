@@ -16,3 +16,30 @@ background: linear-gradient(to left, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Fi
   height: 250px;
   padding-top: 5em;
 }
+
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}

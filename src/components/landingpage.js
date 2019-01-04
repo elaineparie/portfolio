@@ -13,6 +13,13 @@ class LandingPage extends Component {
       src="https://i.imgur.com/jSu8Bh2.png"
       alt="headshot"
       />
+
+      <div className="banner-text">
+      <h1>Full Stack Web Developer</h1>
+      <hr/>
+
+      <p>HTML/CSS | Ruby | Ruby on Rails | Javascript | React</p>
+      </div>
       </Cell>
       </Grid>
       </div>
