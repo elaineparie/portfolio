@@ -10,6 +10,8 @@ class Projects extends Component {
   toggleCategories() {
     if(this.state.activeTab === 0){
       return(
+        <div className="projects-grid">
+        {/* Project 1 */}
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #1</CardTitle>
             <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -23,6 +25,37 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
         </Card>
+
+        {/* Project 2 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #2</CardTitle>
+            <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>Video Demo</Button>
+              <Button colored>Other</Button>
+            </CardActions>
+            <CardMenu style={{color: "#fff"}}>
+              <IconButton name="share" />
+            </CardMenu>
+        </Card>
+
+        {/* Project 3 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project #3</CardTitle>
+            <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>Video Demo</Button>
+              <Button colored>Other</Button>
+            </CardActions>
+            <CardMenu style={{color: "#fff"}}>
+              <IconButton name="share" />
+            </CardMenu>
+        </Card>
+        </div>
       )
     } else if(this.state.activeTab === 1){
       return(
@@ -56,13 +89,12 @@ class Projects extends Component {
           <Tab>Javascript</Tab>
         </Tabs>
 
-        <section className="projects-grid">
-          <Grid className="projects-grid">
+          <Grid>
             <Cell col={12}>
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
           </Grid>
-        </section>
+
       </div>
     )
   }
