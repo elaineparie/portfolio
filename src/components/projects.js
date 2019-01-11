@@ -7,6 +7,7 @@ class Projects extends Component {
     this.state = { activeTab: 0 };
   }
 
+
   toggleCategories() {
     if(this.state.activeTab === 0){
       return(
@@ -59,21 +60,150 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 1){
       return(
-        <div>
-        <h1>This is rails</h1>
+        <div className="projects-grid">
+        {/* Project 1 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>Rails Project #1</CardTitle>
+            <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>Video Demo</Button>
+              <Button colored>Other</Button>
+            </CardActions>
+            <CardMenu style={{color: "#fff"}}>
+              <IconButton name="share" />
+            </CardMenu>
+        </Card>
+
+        {/* Project 2 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>Rails Project #2</CardTitle>
+            <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>Video Demo</Button>
+              <Button colored>Other</Button>
+            </CardActions>
+            <CardMenu style={{color: "#fff"}}>
+              <IconButton name="share" />
+            </CardMenu>
+        </Card>
+
+        {/* Project 3 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>Rails Project #3</CardTitle>
+            <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>Video Demo</Button>
+              <Button colored>Other</Button>
+            </CardActions>
+            <CardMenu style={{color: "#fff"}}>
+              <IconButton name="share" />
+            </CardMenu>
+        </Card>
         </div>
       )
     } else if(this.state.activeTab === 2){
       return(
-        <div>
-        <h1>This is Sinatra</h1>
+        <div className="projects-grid">
+        {/* Project 1 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>Sinatra Project #1</CardTitle>
+            <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>Video Demo</Button>
+              <Button colored>Other</Button>
+            </CardActions>
+            <CardMenu style={{color: "#fff"}}>
+              <IconButton name="share" />
+            </CardMenu>
+        </Card>
+
+        {/* Project 2 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>Sinatra Project #2</CardTitle>
+            <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>Video Demo</Button>
+              <Button colored>Other</Button>
+            </CardActions>
+            <CardMenu style={{color: "#fff"}}>
+              <IconButton name="share" />
+            </CardMenu>
+        </Card>
+
+        {/* Project 3 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>Sinatra Project #3</CardTitle>
+            <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>Video Demo</Button>
+              <Button colored>Other</Button>
+            </CardActions>
+            <CardMenu style={{color: "#fff"}}>
+              <IconButton name="share" />
+            </CardMenu>
+        </Card>
         </div>
       )
     }
     else if(this.state.activeTab === 3){
       return(
-        <div>
-        <h1>This is JS</h1>
+        <div className="projects-grid">
+        {/* Project 1 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>Javascript Project #1</CardTitle>
+            <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>Video Demo</Button>
+              <Button colored>Other</Button>
+            </CardActions>
+            <CardMenu style={{color: "#fff"}}>
+              <IconButton name="share" />
+            </CardMenu>
+        </Card>
+
+        {/* Project 2 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>Javascript Project #2</CardTitle>
+            <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>Video Demo</Button>
+              <Button colored>Other</Button>
+            </CardActions>
+            <CardMenu style={{color: "#fff"}}>
+              <IconButton name="share" />
+            </CardMenu>
+        </Card>
+
+        {/* Project 3 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>Javascript Project #3</CardTitle>
+            <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>Video Demo</Button>
+              <Button colored>Other</Button>
+            </CardActions>
+            <CardMenu style={{color: "#fff"}}>
+              <IconButton name="share" />
+            </CardMenu>
+        </Card>
         </div>
       )
     }
