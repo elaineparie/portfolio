@@ -68,6 +68,8 @@ height: 100%;
   display: flex;
 }
 
+/* Contact Page Styling */
+
 .contact-body {
   margin: auto;
   background: grey;
@@ -95,5 +97,4 @@ height: 100%;
 
 .contact-grid p {
   font-family: 'oxygen', sans-serif;
-  font-weight: bold;
 }
