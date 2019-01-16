@@ -9,7 +9,7 @@ class Contact extends Component {
         <Cell col={6}>
           <h2>Elaine Anderson</h2>
             <img
-              src="https://i.imgur.com/jSu8Bh2.png"
+              src="https://i.imgur.com/GSHHo9o.jpg"
               alt="headshot"
               style={{height: '250px'}}
             />
