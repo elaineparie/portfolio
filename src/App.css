@@ -98,3 +98,9 @@ height: 100%;
 .contact-grid p {
   font-family: 'oxygen', sans-serif;
 }
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
