@@ -18,18 +18,40 @@ class Contact extends Component {
         <Cell col={6}>
         <h2>Contact Me</h2>
         <hr/>
+        <div className="contact-list">
+          <List>
+            <ListItem>
+              <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+              <i className="fa fa-phone-square" aria-hidden="true"/>
+              (603) 707-0905
+              </ListItemContent>
+            </ListItem>
 
-            <List>
             <ListItem>
-              <ListItemContent icon="person">Bryan Cranston</ListItemContent>
+              <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+              <i className="fa fa-envelope" aria-hidden="true"/>
+              eparie@bu.edu
+              </ListItemContent>
             </ListItem>
+
             <ListItem>
-              <ListItemContent icon="person">Aaron Paul</ListItemContent>
+              <ListItemContent style={{fontSize: '18px', fontFamily: 'Anton'}}>
+              <i className="fa fa-linkedin" aria-hidden="true"/>
+              linkedin.com/in/elaineparieanderson/
+              </ListItemContent>
             </ListItem>
+
             <ListItem>
-              <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+              <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+              <i className="fa fa-instagram" aria-hidden="true"/>
+              @elaineparie
+              </ListItemContent>
             </ListItem>
+
           </List>
+        </div>
+
+
 
         </Cell>
       </Grid>
