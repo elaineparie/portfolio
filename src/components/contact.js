@@ -13,7 +13,8 @@ class Contact extends Component {
               alt="headshot"
               style={{height: '250px'}}
             />
-            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit anim id est laborum.</p>
+            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
+            You might not think a feather-step has any relation to a recursive method, but in reality, they are not so different. Each begins with a creative idea that is messy and lacking clarity, and in time, is refined. As a Ballroom Dancer and Developer with a background in Ruby and JavaScript, I am excited to bring my creative and technical skills to bear in a developer position.</p>
         </Cell>
         <Cell col={6}>
         <h2>Contact Me</h2>
@@ -21,30 +22,30 @@ class Contact extends Component {
         <div className="contact-list">
           <List>
             <ListItem>
-              <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+              <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
               <i className="fa fa-phone-square" aria-hidden="true"/>
               (603) 707-0905
               </ListItemContent>
             </ListItem>
 
             <ListItem>
-              <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+              <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
               <i className="fa fa-envelope" aria-hidden="true"/>
               eparie@bu.edu
               </ListItemContent>
             </ListItem>
 
             <ListItem>
-              <ListItemContent style={{fontSize: '18px', fontFamily: 'Anton'}}>
-              <i className="fa fa-linkedin" aria-hidden="true"/>
-              linkedin.com/in/elaineparieanderson/
+              <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+              <i className="fa fa-instagram" aria-hidden="true"/>
+              @elaineparie
               </ListItemContent>
             </ListItem>
 
             <ListItem>
-              <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-              <i className="fa fa-instagram" aria-hidden="true"/>
-              @elaineparie
+              <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+              <i className="fa fa-linkedin" aria-hidden="true"/>
+              in/elaineparieanderson/
               </ListItemContent>
             </ListItem>
 
