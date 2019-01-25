@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Education from "./education"
+import Education from "./education";
+import Experience from "./experience";
 
 
 class Resume extends Component {
@@ -34,13 +35,52 @@ class Resume extends Component {
         </Cell>
         <Cell className="resume-right-col" col={8}>
           <h2>Education</h2>
+
           <Education
-            startYear={2013}
-            endYear={2017}
+            startYear="May, 2018"
+            endYear="Nov, 2018"
+            schoolName="Flatiron School"
+            schoolMajor="Full-Stack Web Development"
+          />
+
+          <Education
+            startYear="Sept, 2013"
+            endYear="May, 2017"
             schoolName="Boston University"
             schoolMajor="Journalism"
             schoolMinor="Philosophy"
             schoolGpa={3.74}
+          />
+
+          <hr style={{borderTop: '3px solid #e22947'}} />
+
+          <h2>Experience</h2>
+          <Experience
+          startYear="Dec, 2016"
+          endYear="May, 2017"
+          jobTitle="Travel Editor"
+          jobName="Boston University BUZZ"
+          taskOne="+ Organized and scheduled the work of 10 writers"
+          taskTwo="+ Held bi-weekly pitch meetings to assist writers develop their ideas"
+          taskThree="+ Edited an article per week "
+          />
+          <Experience
+          startYear="May, 2016"
+          endYear="Aug, 2017"
+          jobTitle="Reporter"
+          jobName="Foster's Daily Democrat"
+          taskOne="+ Adopted a beat and wrote two articles per day about the area"
+          taskTwo="+ Contacted and interviewed numerous officials and other citizens"
+          taskThree="+ Retrieved court records and other documents to inform stories"
+          />
+          <Experience
+          startYear="Sept, 2015"
+          endYear="Dec, 2015"
+          jobTitle="Editorial Intern"
+          jobName="Wanderu.com"
+          taskOne="+ Wrote bi-weekly articles for a travel review blog"
+          taskTwo="+ Edited and posted work through Wordpress"
+          taskThree="+ Promoted business through social media "
           />
         </Cell>
       </Grid>
