@@ -20,7 +20,7 @@ height: 100%;
 
 .avatar-img {
   height: 250px;
-  padding-top: 5em;
+  padding-top: 3.5em;
 }
 
 
@@ -52,7 +52,7 @@ height: 100%;
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: auto;
   margin: auto;
 
