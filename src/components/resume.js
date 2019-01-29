@@ -48,9 +48,9 @@ class Resume extends Component {
             startYear="Sept, 2013"
             endYear="May, 2017"
             schoolName="Boston University"
-            schoolMajor="Journalism"
-            schoolMinor="Philosophy"
-            schoolGpa={3.74}
+            schoolMajor="Journalism, "
+            schoolMinor="Minor: Philosophy, "
+            schoolGpa="GPA 3.74"
           />
 
           <hr style={{borderTop: '3px solid #e22947'}} />

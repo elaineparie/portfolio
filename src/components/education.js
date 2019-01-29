@@ -10,7 +10,7 @@ class Education extends Component {
       </Cell>
       <Cell col={8}>
         <h4 style={{marginTop: '0px'}}>{this.props.schoolName}</h4>
-        <p>Major: {this.props.schoolMajor}, Minor: {this.props.schoolMinor}, GPA: {this.props.schoolGpa}</p>
+        <p>Major: {this.props.schoolMajor} {this.props.schoolMinor} {this.props.schoolGpa}</p>
       </Cell>
       </Grid>
     )
